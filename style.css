@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #96119b;
+}
+li:hover {
+    text-decoration: underline;
+    color: #96119b;
+}
+
+.wrapper {
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar {
+
+    width: 30%;
+    height: 800px;
+    float: left;
+    background: url(./img/1.jpg) center / cover;
+}
+
+.sidebar img {
+
+    max-width: 100px;
+    padding: 31px 60px;
+    margin: 20px 10px;
+}
+
+.sidebar .name {
+    color: azure;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin: 170px 5px;
+}
+
+.sidebar .contacts {
+    color: aliceblue;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin: -154px 0px;
+}
+
+.contacts div {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar .contacts span {
+    color: antiquewhite;
+}
+.sidebar .skills {
+    color: aliceblue;
+    display: flex;
+    margin: 170px 10px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar .skills  p{
+    font-size: 24px;
+    color: aliceblue;
+    margin: 0;
+}
+.sidebar .skills  p:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.sidebar .skills ol{
+    padding: 5px;
+}
+
+.sidebar .skills li {
+    padding: 3px;
+    list-style: none;
+}
+
+
+
+
+/* ************MAIN************ */
+.main {
+    background: aliceblue;
+    width: 60%;
+}
+.main .text {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 10px 20px 10px 30px;
+}
+
+.main p,
+.url,
+.exp {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    color: #f4f4f4;
+    text-shadow: -1px -1px white, 1px 1px gray, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757,
+     10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, .4), 18px 18px 10px rgba(0, 0, 0, .4);
+}
+
+.main .goal ol{
+    list-style: none;
+}
+
+.main-item, .main-page {
+    padding: 10px 15px 10px 11px;
+}
+.main-item a{
+    font-size: 18px; 
+    font-weight: 700;
+    color: red;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.main-item a:hover{
+    text-decoration: underline;
+}
+
+.main-best {
+    display: flex;
+    justify-content: center;
+    padding: 35px ;
+    color: rgb(13, 98, 109);
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px crimson, 0 0 35px crimson, 0 0 40px crimson, 0 0 50px crimson, 0 0 75px crimson;
+}
